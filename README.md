@@ -164,6 +164,8 @@ Syscall/filesystem/network restriction for individual processes, built on Bubble
 
 Related but not untrusted-code sandboxes for coding agents:
 
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local policy checks and approval hooks for supported AI coding-agent actions and MCP tools; **not a code-execution sandbox or isolation boundary** (Apache-2.0).
+
 - [Ona](https://ona.com) - Formerly Gitpod; container-based CDE + agent orchestration. **Acquired by OpenAI (announced June 2026, deal pending); folding into Codex.**
 - [Coder](https://coder.com) - Self-hosted CDE; isolation delegated to the provisioned backend. AGPL-3.0 (+ enterprise).
 - [CodeSandbox SDK](https://codesandbox.io) - microVM CDE (now part of Together AI); primarily a dev environment.
